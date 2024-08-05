@@ -39,7 +39,7 @@ const Drawer1 = ({ className = "", onClose }) => {
     >
       <Link
         className="cursor-pointer [text-decoration:none] self-stretch relative font-bold text-[inherit] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
-        to="/landingpage"
+        to="/"
         onClick={onClose}
       >
         Home
@@ -52,7 +52,7 @@ const Drawer1 = ({ className = "", onClose }) => {
       </Link>
       <Link
         className="cursor-pointer [text-decoration:none] self-stretch relative font-bold text-[inherit] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]"
-        to="/about"
+        to="/contact"
       >
         Contacts
       </Link>
